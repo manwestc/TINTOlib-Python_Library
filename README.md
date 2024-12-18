@@ -1,4 +1,5 @@
-# Crash Course on [TINTOlib](https://tintolib.readthedocs.io/en/latest/): Tabular Data to Synthetic Images for Vision-Based Machine Learning
+# [TINTOlib](https://tintolib.readthedocs.io/en/latest/): A Python Library for Tabular-to-Image Transformations in Vision-Based Machine Learning  
+####xx (Article in review in Journal of Statistical Software)
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](https://github.com/oeg-upm/TINTOlib-Documentation/blob/main/LICENSE)  
 [![Python Version](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.python.org/pypi/)  
