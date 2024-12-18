@@ -49,6 +49,7 @@ Finally, using synthetic images, experiment with either vision models like CNNs 
 The repository is organized into step-by-step examples for transforming tabular data into images and applying vision models:
   - **Classification task**: Notebooks for classification task. 
   - **Regression task**: Notebooks for regression task. 
+  - **logs**: contains detailed results from regression and classification experiments, including metrics (e.g., RMSE, accuracy), model architectures (e.g., CNN, ViT, HyCNN, HyViT), and the performance of TINTOlib’s transformation methods.
 
 
 ## Tabular-to-Image Transformation Methods
