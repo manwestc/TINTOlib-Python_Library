@@ -1,12 +1,17 @@
 # [TINTOlib](https://tintolib.readthedocs.io/en/latest/): A Python Library for Tabular-to-Image Transformations in Vision-Based Machine Learning  
 ####xx (Article in review in Journal of Statistical Software)
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](https://github.com/oeg-upm/TINTOlib-Documentation/blob/main/LICENSE)  
-[![Python Version](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.python.org/pypi/)  
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](https://github.com/oeg-upm/TINTOlib-Documentation/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](https://github.com/oeg-upm/TINTOlib-Documentation/blob/main/LICENSE)
+[![Python Version](https://img.shields.io/badge/Python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue)](https://pypi.python.org/pypi/)
 [![Documentation Status](https://readthedocs.org/projects/morph-kgc/badge/?version=latest)](https://tintolib.readthedocs.io/en/latest/)
+[![Open In Colab - TensorFlow CNN](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DCY1117/ECAI2024-Material/blob/main/Notebooks/Challenge/Tensorflow_Regression_CNN.ipynb)
+[![Open In Colab - TensorFlow CNN + MLP](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DCY1117/ECAI2024-Material/blob/main/Notebooks/Challenge/Tensorflow_Regression_CNN%2BMLP.ipynb)
+[![Open In Colab - TensorFlow ViT](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DCY1117/ECAI2024-Material/blob/main/Notebooks/Challenge/Tensorflow_Regression_ViT.ipynb)
+[![Open In Colab - TensorFlow ViT + MLP](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DCY1117/ECAI2024-Material/blob/main/Notebooks/Challenge/Tensorflow_Regression_ViT%2BMLP.ipynb)
 
 <div align="center">
-  <img src="Images/logo.svg" alt="TINTO Logo" width="150">
+  <img src="imgs/logo.svg" alt="TINTO Logo" width="150">
 </div>
 
 ## Overview
@@ -19,7 +24,7 @@ This library was introduced and validated in the context of a scientific study, 
 
 Key features of **TINTOlib** include:
 - Integration of **state-of-the-art transformation methods** for tabular-to-image conversion, such as IGTD, SuperTML, and REFINED.
-- Support for **hybrid architectures** that combine CNNs or ViTs with Multi-Layer Perceptrons (MLPs), leveraging the strengths of both data formats.
+- Support for **hybrid architectures** (see Figures) that combine CNNs or ViTs with Multi-Layer Perceptrons (MLPs), leveraging the strengths of both data formats.
 - Compatibility with popular frameworks like **TensorFlow** and **PyTorch**, facilitating experimentation and deployment.
 
 
@@ -32,6 +37,14 @@ Key features of **TINTOlib** include:
     - All other columns are numerical features.
 - **Platform Compatibility**: Runs on **Linux**, **Windows**, and **macOS**.
 - **Python Versions Supported**: Python 3.7 and above.
+
+Finally, using synthetic images, experiment with either vision models like CNNs or ViTs, and explore hybrid models. Below are the architectures that will be presented, and the ones you will modify and use during the session:
+
+- **Synthetic images using CNN**  
+  ![Tabular-to-Image CNN](Images/Tabular-to-image-CNN.jpg)
+
+- **Synthetic images using Hybrid Neural Network with ViT (HyViT)**  
+  ![Tabular-to-Image HyNNViT](Images/Tabular-to-image-HyNNViT.jpg)
 
 ## Repository Structure
 
