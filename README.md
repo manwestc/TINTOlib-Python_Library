@@ -16,8 +16,6 @@
 
 ## Overview
 
-## Overview
-
 **TINTOlib** is the first Python library specifically designed to transform tabular data into synthetic images, addressing a critical gap in the integration of tabular and image-based machine learning approaches. Unlike existing tools, **TINTOlib** supports a comprehensive set of transformation techniques optimized for state-of-the-art computer vision models, including Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs). 
 
 This library was introduced and validated in the context of a scientific study, where its methods demonstrated significant improvements in regression and classification tasks when used with hybrid neural network architectures. The study highlighted how TINTOlib bridges the gap between tabular data processing and vision-based deep learning by enabling seamless integration of features extracted from synthetic images with numerical data using hybrid architectures.
@@ -41,18 +39,16 @@ Key features of **TINTOlib** include:
 Finally, using synthetic images, experiment with either vision models like CNNs or ViTs, and explore hybrid models. Below are the architectures that will be presented, and the ones you will modify and use during the session:
 
 - **Synthetic images using CNN**  
-  ![Tabular-to-Image CNN](Images/Tabular-to-image-CNN.jpg)
+  ![Tabular-to-Image CNN](imgs/Tabular-to-image-CNN.jpg)
 
 - **Synthetic images using Hybrid Neural Network with ViT (HyViT)**  
-  ![Tabular-to-Image HyNNViT](Images/Tabular-to-image-HyNNViT.jpg)
+  ![Tabular-to-Image HyNNViT](imgs/Tabular-to-image-HyNNViT.jpg)
 
 ## Repository Structure
 
-The repository is organized into the following key sections:
-
-- **Notebooks**: Step-by-step examples for transforming tabular data into images and applying vision models. Includes:
-  - **Classification**: Notebooks for classification task.
-  - **Regression**: Notebooks for regression task.
+The repository is organized into step-by-step examples for transforming tabular data into images and applying vision models:
+  - **Classification task**: Notebooks for classification task. 
+  - **Regression task**: Notebooks for regression task. 
 
 
 ## Tabular-to-Image Transformation Methods
@@ -76,6 +72,7 @@ All the methods presented can be called using the [TINTOlib](https://tintolib.re
 - For more detailed information, refer to the **[TINTOlib ReadTheDocs](https://tintolib.readthedocs.io/en/latest/)**.  
 - GitHub repository: **[TINTOlib Documentation](https://github.com/oeg-upm/TINTOlib-Documentation)**.
 - PyPI: **[PyPI](https://pypi.org/project/TINTOlib/)**.
+- Moreover, we have a **[TINTOlib Crash Course](https://github.com/oeg-upm/TINTOlib-Crash_Course)**.
 
 <!--
 
@@ -126,6 +123,6 @@ TINTOlib is available under the **[Apache License 2.0](https://github.com/oeg-up
 
 <div>
 <p align = "center">
-<kbd><img src="./imgs/logo-oeg.png" alt="Ontology Engineering Group" width="150"></kbd> <kbd><img src="./imgs/logo-upm.png" alt="Universidad Politécnica de Madrid" width="150"></kbd> <kbd><img src="./imgs/logo-uned-.jpg" alt="Universidad Nacional de Educación a Distancia" width="231"></kbd> <kbd><img src="./imgs/logo-uclm.png" alt="Universidad de Castilla-La Mancha" width="115"></kbd> 
+<kbd><img src="./imgs/logo-oeg.png" alt="Ontology Engineering Group" width="150"></kbd> <kbd><img src="./imgs/logo-upm.png" alt="Universidad Politécnica de Madrid" width="150"></kbd> <kbd><img src="./imgs/logo-uned-.jpg" alt="Universidad Nacional de Educación a Distancia" width="231"></kbd> 
 </p>
 </div>
