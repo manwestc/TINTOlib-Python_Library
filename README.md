@@ -16,32 +16,24 @@
 
 ## Overview
 
-**TINTOlib** is the first Python library specifically designed to transform tabular data into synthetic images, addressing a critical gap in the integration of tabular and image-based machine learning approaches. Unlike existing tools, **TINTOlib** supports a comprehensive set of transformation techniques optimized for state-of-the-art computer vision models, including Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs). 
+**TINTOlib** is the first Python library specifically designed to transform tabular data into synthetic images, addressing a critical gap in the integration of tabular and image-based machine learning approaches. It supports a comprehensive set of transformation techniques optimized for state-of-the-art computer vision models, including Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs). 
 
-This library was introduced and validated in the context of a scientific study, where its methods demonstrated significant improvements in regression and classification tasks when used with hybrid neural network architectures. The study highlighted how TINTOlib bridges the gap between tabular data processing and vision-based deep learning by enabling seamless integration of features extracted from synthetic images with numerical data using hybrid architectures.
+This library was introduced and validated in a scientific study, demonstrating significant improvements in regression and classification tasks. By enabling seamless integration of features extracted from synthetic images with numerical data using hybrid architectures, **TINTOlib** bridges the gap between tabular data processing and vision-based deep learning.
 
-Key features of **TINTOlib** include:
-- Integration of **state-of-the-art transformation methods** for tabular-to-image conversion, such as IGTD, SuperTML, and REFINED.
-- Support for **hybrid architectures** (see Figures) that combine CNNs or ViTs with Multi-Layer Perceptrons (MLPs), leveraging the strengths of both data formats.
-- Compatibility with popular frameworks like **TensorFlow** and **PyTorch**, facilitating experimentation and deployment.
+### Highlights
+- **Transformation Techniques**: Provides cutting-edge tabular-to-image conversion methods like IGTD, SuperTML, and REFINED.
+- **Architectural Support**: Designed for standalone vision models (e.g., CNNs, ViTs) and hybrid architectures combining these models with Multi-Layer Perceptrons (MLPs).
+- **Platform Compatibility**: Works across **Linux**, **Windows**, and **macOS** with support for Python 3.7 and above.
+- **Input Formats**: Compatible with **Pandas DataFrame** and **Tidy CSV Files**, where numerical features and target variables follow the Tidy Data standard.
 
+### Architectures Explored
 
-## Key Features
+Below are examples of the architectures that can be built using TINTOlib and applied in your experiments:
 
-- **Data Input Options**:
-  - **Pandas DataFrame** for seamless data handling.
-  - **CSV Files** following the **Tidy Data** format, where:
-    - The last column is the target variable.
-    - All other columns are numerical features.
-- **Platform Compatibility**: Runs on **Linux**, **Windows**, and **macOS**.
-- **Python Versions Supported**: Python 3.7 and above.
-
-Finally, using synthetic images, experiment with either vision models like CNNs or ViTs, and explore hybrid models. Below are the architectures that will be presented, and the ones you will modify and use during the session:
-
-- **Synthetic images using CNN**  
+- **Synthetic Images with CNN**  
   ![Tabular-to-Image CNN](imgs/Tabular-to-image-CNN.jpg)
 
-- **Synthetic images using Hybrid Neural Network with ViT (HyViT)**  
+- **Hybrid Neural Network with ViT (HyViT)**  
   ![Tabular-to-Image HyNNViT](imgs/Tabular-to-image-HyNNViT.jpg)
 
 ## Repository Structure
